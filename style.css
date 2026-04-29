@@ -193,3 +193,66 @@ select {
   font-size: 2rem;
   font-weight: 500;
 }
+
+#projects-pie-plot {
+  max-width: 20em;
+
+  &:has(path:hover) {
+    path:not(:hover) {
+      opacity: 0.5;
+    }
+  }
+
+  path {
+    transition: 300ms;
+  }
+}
+
+.selected {
+  --color: oklch(60% 45% 0) !important;
+
+  &:is(path) {
+    fill: var(--color);
+  }
+}
+
+
+.legend{
+  list-style: none;
+  padding: 1rem;
+  margin: 2rem 0;
+  border: 1px solid #888;
+
+  display:grid;
+  grid-template-columns: repeat(auto-fill,minmax(9em,1fr));
+  gap:1rem;
+}
+
+.legend li{
+  display:flex;
+  align-items:center;
+  gap:.5rem;
+}
+
+.swatch{
+  display:inline-block;
+  width:1em;
+  height:1em;
+  background: var(--color);
+  border-radius:50%;
+}
+
+.container{
+  display:flex;
+  align-items:center;
+  gap:2rem;
+}
+
+.legend{
+  flex:1;
+}
+
+path {
+  cursor: pointer;
+}
+
