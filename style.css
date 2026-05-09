@@ -326,3 +326,31 @@ dl.info[hidden]:not(:hover, :focus-within) {
 circle.selected {
   fill: #ff6b6b;
 }
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 16px;
+}
+
+.stats div {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.stats dt {
+  font-size: clamp(0.7rem, 1vw, 0.9rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: gray;
+}
+
+.stats dd {
+  margin: 0;
+  font-size: clamp(1rem, 3vw, 2rem);
+  line-height: 1;
+}
