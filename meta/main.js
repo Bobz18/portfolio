@@ -88,7 +88,7 @@ function renderTooltipContent(commit) {
 
   date.textContent = commit.datetime?.toLocaleString('en', {
     dateStyle: 'full',
-  });
+  }); 
 }
 
 function updateTooltipVisibility(isVisible) {
