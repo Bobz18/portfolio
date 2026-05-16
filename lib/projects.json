@@ -1,27 +1,31 @@
 [
     {
-        "title": "Lorem ipsum dolor sit.",
+        "title": "Recipe Rating Predictions Based on Meat Inclusion.",
         "year":2025,
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid illo perferendis, neque doloribus nostrum error provident fugiat unde sunt reprehenderit repudiandae molestiae animi quis obcaecati impedit distinctio laborum. Quod, quam?"
+        "image": "../images/recipe.png",
+        "url": "https://bobz18.github.io/bobbyzhouproject/",
+        "description": "A data science project analyzing Food.com recipe data to predict recipe ratings. The project includes data cleaning, exploratory analysis, missingness testing, hypothesis testing on meat versus non-meat recipes, and machine learning models using Random Forests to predict user ratings from recipe features like preparation time, ingredients, nutrition, reviews, and meat inclusion."
     },
     {
-        "title": "Unde aliquid vel adipisci.",
+        "title": "Bikewatching in Boston.",
         "year":2026,
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Nisi delectus ut, odio, animi corporis velit est quia consectetur nostrum dolorum voluptate aspernatur voluptatum! Corporis in harum rerum animi ullam distinctio optio iusto recusandae asperiores. Voluptatem labore amet consectetur."
+        "image": "../images/bikewatching.png",
+        "url": "https://bobz18.github.io/helloword/",
+        "description": "An interactive map-based visualization of Bluebike traffic patterns across the Boston and Cambridge area using D3.js and Mapbox GL. The project visualizes station activity through dynamically sized and color-coded circles, supports real-time filtering with a time slider, and overlays regional bike lane infrastructure to explore how traffic flow changes throughout the day."
     },
     {
-        "title": "Nihil debitis cumque voluptas.",
-        "year":2025,
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Impedit suscipit veritatis inventore, quos alias, ipsa repellendus id sit voluptatum, laboriosam soluta? Praesentium cum aliquam a. Autem nisi, unde reprehenderit itaque, sequi voluptatibus distinctio, non quas laboriosam quaerat eaque?"
+        "title": "Deceptive Data Visualizations.",
+        "year":2026,
+        "image": "../images/Deceptive.jpg",
+        "url": "https://bobz18.github.io/Deceptive_data_analysis/",
+        "description": "A comparative data visualization project examining how design choices can intentionally persuade or mislead viewers when presenting statistical evidence. Using D3.js and curated public datasets, the project contrasts “For” and “Against” visualizations around controversial social issues, highlighting how framing, filtering, scaling, selective emphasis, and omitted context can shape audience interpretation and create deceptive narratives in data storytelling."
     },
     {
-        "title": "Sapiente tempora dolores minus?",
-        "year":2025,
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Culpa aspernatur ut quibusdam enim deserunt exercitationem dignissimos, maxime alias velit. Necessitatibus neque praesentium laboriosam nulla molestias quos consequatur facilis sapiente totam dolor voluptatem illo ipsam fuga, molestiae magni cumque?"
+        "title": "Climate Futures: Visualizing Global Temperature Projections.",
+        "year":2026,
+        "image": "../images/Climate.png",
+        "url": "https://bobz18.github.io/project-3/",
+        "description": "A climate data visualization project analyzing how future greenhouse gas emission scenarios affect global temperature change by the year 2100. Using Python, Pandas, Matplotlib, and CMIP climate model data, the project explores long-term warming trends across multiple SSP scenarios through interactive and comparative visualizations, highlighting how different policy and emission pathways influence projected climate outcomes."
     },
     {
         "title": "Harum magni saepe corrupti.",
